@@ -10,7 +10,7 @@ import Form from "@/Pages/Auth/Components/Form";
 const Login = () => {
   return (
     <div className="min-h-screen bg-gray-100 flex items-center justify-center">
-      <Card>
+      <Card className="max-w-md">
         <Heading as="h2">Login</Heading>
         <Form>
           <div>
