@@ -1,15 +1,47 @@
 <div align="center">
 
-# Pemrograman Sisi Klien 2025/1
-### Client-Side Programming Course Repository
+# Pemrograman Sisi Klien
+### Repository Mata Kuliah Pemrograman Sisi Klien
 
 </div>
 
 ---
 
-## Deskripsi
+## Selamat Datang di Mata Kuliah Pemrograman Sisi Klien!
 
-Repository ini digunakan untuk **belajar dan praktik** mata kuliah Pemrograman Sisi Klien. Di sini Anda akan menemukan berbagai contoh kode, latihan, dan project yang dikerjakan selama perkuliahan.
+Pemrograman Sisi Klien adalah aspek fundamental dari pengembangan web yang berfokus pada pembuatan antarmuka pengguna yang interaktif dan dinamis langsung di browser web. Mata kuliah ini akan memandu Anda melalui konsep-konsep esensial dan teknologi yang digunakan dalam pengembangan web sisi klien modern.
+
+---
+
+## Gambaran Umum Mata Kuliah
+
+Dalam mata kuliah ini, Anda akan mempelajari:
+
+- **HTML5:** Tulang punggung dari struktur dan semantik konten web
+- **CSS3:** Teknik styling dan layout untuk membuat antarmuka pengguna yang indah
+- **JavaScript:** Bahasa pemrograman untuk mengimplementasikan fungsi interaktif
+- **Framework Modern:** Pengenalan framework dan library front-end populer
+- **Responsive Design:** Membuat website yang berfungsi di berbagai perangkat dan ukuran layar
+
+---
+
+## Capaian Pembelajaran
+
+Di akhir mata kuliah ini, Anda akan mampu:
+
+- Membangun aplikasi web interaktif menggunakan teknologi sisi klien modern
+- Mengimplementasikan antarmuka yang responsif dan user-friendly
+- Menangani interaksi pengguna dan mengelola data sisi klien
+- Melakukan debugging dan optimasi kode sisi klien
+- Menerapkan praktik terbaik dalam pengembangan web front-end
+
+---
+
+## Memulai Pembelajaran
+
+Siap untuk memulai? Mulai perjalanan Anda di sini:
+
+📚 **[Memulai dengan Pemrograman Sisi Klien](https://bit.ly/pemsik-notion)**
 
 ---
 
@@ -22,42 +54,22 @@ Repository ini digunakan untuk **belajar dan praktik** mata kuliah Pemrograman S
 
 ---
 
-## Isi Repository
+## Struktur Branch
 
-- **Contoh Kode** - Implementasi berbagai konsep pemrograman sisi klien
-- **Latihan** - Soal dan solusi latihan perkuliahan
-- **Project** - Tugas dan project mata kuliah
-- **Dokumentasi** - Catatan dan referensi pembelajaran
+Repository ini menggunakan sistem branch untuk setiap materi perkuliahan:
 
----
+- **main** - Branch utama untuk dokumentasi
+- **course-1** - Materi pertemuan 1
+- **course-2** - Materi pertemuan 2
+- **course-3** - Materi pertemuan 3
+- Dan seterusnya...
 
-## Teknologi yang Dipelajari
-
-- HTML5
-- CSS3
-- JavaScript
-- Framework/Library modern (React, Vue, atau lainnya)
-- Tools & Best Practices
-
----
-
-## Struktur Folder
-
-```
-pemsik20251/
-├── readme.md           # Dokumentasi repository
-├── week-01/            # Materi minggu 1
-├── week-02/            # Materi minggu 2
-├── projects/           # Project dan tugas
-└── exercises/          # Latihan dan praktikum
-```
-
-> **Note:** Struktur folder akan berkembang seiring berjalannya perkuliahan.
+> **Note:** Setiap branch `course-{n}` berisi materi dan latihan untuk pertemuan ke-n. Gunakan `git checkout course-{n}` untuk mengakses materi tertentu.
 
 ---
 
 <div align="center">
 
-**Pemrograman Sisi Klien - Tahun Ajaran 2025/1**
+**Pemrograman Sisi Klien**
 
 </div>
