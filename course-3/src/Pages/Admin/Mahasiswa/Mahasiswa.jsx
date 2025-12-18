@@ -43,7 +43,7 @@ const Mahasiswa = () => {
   };
 
   const deleteMahasiswa = (nim) => {
-    const filtered = mahasiswa.filtered((mhs) => mhs.nim !== nim);
+    const filtered = mahasiswa.filter((mhs) => mhs.nim !== nim);
     setMahasiswa(filtered);
   }
 
@@ -110,7 +110,7 @@ const Mahasiswa = () => {
             </tr>
           </thead>
           <tbody>
-            {mahasiswaList.map((mhs, index) => (
+            {mahasiswa.map((mhs, index) => (
               <tr
                 key={mhs.nim}
                 className={index % 2 === 0 ? "bg-white" : "bg-gray-100"}
