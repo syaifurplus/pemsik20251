@@ -1,4 +1,5 @@
 import { useNavigate } from "react-router-dom";
+import { useState, useEffect } from "react";
 
 import Card from "@/Pages/Admin/Components/Card";
 import Heading from "@/Pages/Admin/Components/Heading";
@@ -7,17 +8,24 @@ import Button from "@/Pages/Admin/Components/Button";
 import Input from "@/Pages/Admin/Components/Input";
 import Label from "@/Pages/Admin/Components/Label";
 
-import { useState } from "react";
-
 import { mahasiswaList } from "@/Data/Dummy";
 
 const Mahasiswa = () => {
   const navigate = useNavigate();
 
-  const [mahasiswa, setMahasiswa] = useState(mahasiswaList);
+  const [mahasiswa, setMahasiswa] = useState([]);
   const [form, setForm] = useState({ nim: "", nama: "" });
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [isEdit, setIsEdit] = useState(false);
+
+  const fetchMahasiswa = async () => {
+    // bisa disimulasikan delay atau nanti diganti fetch API
+    setMahasiswa(mahasiswaList);
+  };
+
+  useEffect(() => {
+    setTimeout(() => fetchMahasiswa(), 1);
+  }, []);
 
   const handleChange = (e) => {
     setForm({ ...form, [e.target.name]: e.target.value });
