@@ -1,3 +1,5 @@
+import { useNavigate } from "react-router-dom";
+
 import Card from "@/Pages/Admin/Components/Card";
 import Heading from "@/Pages/Admin/Components/Heading";
 import Button from "@/Pages/Admin/Components/Button";
@@ -5,6 +7,7 @@ import Button from "@/Pages/Admin/Components/Button";
 import { mahasiswaList } from "@/Data/Dummy";
 
 const Mahasiswa = () => {
+  const navigate = useNavigate();
   const handleEdit = (nama) => alert(`Edit data ${nama}`);
   const handleDelete = (nama) => {
     if (confirm(`Yakin ingin hapus ${nama}?`)) alert("Data berhasil dihapus!");
@@ -34,12 +37,11 @@ const Mahasiswa = () => {
               <td className="py-2 px-4">{mhs.nim}</td>
               <td className="py-2 px-4">{mhs.nama}</td>
               <td className="py-2 px-4 text-center space-x-2">
-                <a
-                  href={`/admin/mahasiswa/${mhs.nim}`}
-                  className="inline-block bg-blue-600 hover:bg-blue-700 text-white text-sm px-3 py-1 rounded"
+                <Button
+                  onClick={() => navigate(`/admin/mahasiswa/${mhs.nim}`)}
                 >
                   Detail
-                </a>
+                </Button>
                 <Button
                   size="sm"
                   variant="warning"
