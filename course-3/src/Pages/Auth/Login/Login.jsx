@@ -1,11 +1,10 @@
-import React from "react";
-import Input from "@/Pages/Layouts/Components/Input";
-import Label from "@/Pages/Layouts/Components/Label";
-import Button from "@/Pages/Layouts/Components/Button";
-import Link from "@/Pages/Layouts/Components/Link";
-import Card from "@/Pages/Layouts/Components/Card";
-import Heading from "@/Pages/Layouts/Components/Heading";
-import Form from "@/Pages/Layouts/Components/Form";
+import Input from "@/Pages/Auth/Components/Input";
+import Label from "@/Pages/Auth/Components/Label";
+import Button from "@/Pages/Auth/Components/Button";
+import Link from "@/Pages/Auth/Components/Link";
+import Card from "@/Pages/Auth/Components/Card";
+import Heading from "@/Pages/Auth/Components/Heading";
+import Form from "@/Pages/Auth/Components/Form";
 
 import { dummyUser } from "@/Data/Dummy";
 

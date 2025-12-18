@@ -1,6 +1,6 @@
-import Sidebar from "@/Pagves/Layouts/Components/Sidebar";
-import Header from "@/Pages/Layouts/Components/Header";
-import Footer from "@/Pages/Layouts/Componentsv/Footer";
+import Sidebar from "@/Pages/Admin/Components/Sidebar";
+import Header from "@/Pages/Admin/Components/Header";
+import Footer from "@/Pages/Admin/Components/Footer";
 import { Outlet } from "react-router-dom";
 
 const AdminLayout = () => {

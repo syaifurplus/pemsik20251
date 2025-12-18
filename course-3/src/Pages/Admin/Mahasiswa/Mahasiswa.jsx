@@ -1,6 +1,6 @@
-import Card from "@/Pages/Layouts/Components/Card";
-import Heading from "@/Pages/Layouts/Components/Heading";
-import Button from "@/Pages/Layouts/Components/Button";
+import Card from "@/Pages/Admin/Components/Card";
+import Heading from "@/Pages/Admin/Components/Heading";
+import Button from "@/Pages/Admin/Components/Button";
 
 import { mahasiswaList } from "@/Data/Dummy";
 

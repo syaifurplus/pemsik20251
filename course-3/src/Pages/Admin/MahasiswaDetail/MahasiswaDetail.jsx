@@ -1,6 +1,5 @@
-import React from "react";
-import Card from "@/Pages/Layouts/Components/Card";
-import Heading from "@/Pages/Layouts/Components/Heading";
+import Card from "@/Pages/Admin/Components/Card";
+import Heading from "@/Pages/Admin/Components/Heading";
 
 import { mahasiswaList } from "@/Data/Dummy";
 

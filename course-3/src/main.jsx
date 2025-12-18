@@ -4,15 +4,15 @@ import { Navigate, createBrowserRouter, RouterProvider } from "react-router-dom"
 
 import './App.css';
 
-import AuthLayout from "@/Pages/Layouts/AuthLayout";
-import AdminLayout from "@/Pages/Layouts/AdminLayout";
-import ProtectedRoute from "@/Pages/Layouts/Components/ProtectedRoute";
+import AuthLayout from "@/Pages/Auth/AuthLayout";
+import AdminLayout from "@/Pages/Admin/AdminLayout";
+import ProtectedRoute from "@/Pages/Admin/Components/ProtectedRoute";
 
 import Login from "@/Pages/Auth/Login/Login";
 import Dashboard from "@/Pages/Admin/Dashboard/Dashboard";
 import Mahasiswa from "@/Pages/Admin/Mahasiswa/Mahasiswa";
 import MahasiswaDetail from "@/Pages/Admin/MahasiswaDetail/MahasiswaDetail";
-import PageNotFound from "@/Pages/PageNotFound";
+import PageNotFound from "@/Pages/Error/PageNotFound";
 
 const router = createBrowserRouter([
   {
