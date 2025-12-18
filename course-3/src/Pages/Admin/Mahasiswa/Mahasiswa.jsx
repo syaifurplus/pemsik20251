@@ -101,11 +101,6 @@ const Mahasiswa = () => {
     });
   };
 
-  // const handleEdit = (nama) => alert(`Edit data ${nama}`);
-  // const handleDelete = (nama) => {
-  //   if (confirm(`Yakin ingin hapus ${nama}?`)) alert("Data berhasil dihapus!");
-  // };
-
   return (
     <>
       <Card>
